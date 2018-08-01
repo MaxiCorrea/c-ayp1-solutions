@@ -3,10 +3,10 @@
 
 static void test_with_multiples_of_5() 
 {
-	assert(is_multiple_of_5(5) == true && "is_multiple_of_5");
-	assert(is_multiple_of_5(10) == true && "is_multiple_of_5");
-	assert(is_multiple_of_5(15) == true && "is_multiple_of_5");
-	assert(is_multiple_of_5(20) == true && "is_multiple_of_5");	
+	assert(is_multiple_of_5(5) && "is_multiple_of_5");
+	assert(is_multiple_of_5(10) && "is_multiple_of_5");
+	assert(is_multiple_of_5(15) && "is_multiple_of_5");
+	assert(is_multiple_of_5(20) && "is_multiple_of_5");	
 }
 
 static void test_without_multiples_of_5()

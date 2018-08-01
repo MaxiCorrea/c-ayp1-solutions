@@ -2,5 +2,5 @@
 
 bool is_positive(int number) 
 {
-	return number > 0 ? true : false;
+	return number > 0;
 }

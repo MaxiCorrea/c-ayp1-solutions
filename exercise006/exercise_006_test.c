@@ -3,7 +3,7 @@
 
 static void test_is_positive() 
 {
-	assert(is_positive(1) == true && "is_positive");
+	assert(is_positive(1) && "is_positive");
 	assert(is_positive(-1) == false && "is_positive");
 	assert(is_positive(0) == false && "is_positive");
 }

@@ -10,9 +10,9 @@ static void test_disordered_prices()
 
 static void test_prices_ordered() 
 {
-	assert(ordered_from_lowest_to_highest(10.0f , 11.0f , 12.0f) == true && "ordered_from_lowest_to_highest");
-	assert(ordered_from_lowest_to_highest(12.0f , 14.0f , 20.0f) == true && "ordered_from_lowest_to_highest");
-	assert(ordered_from_lowest_to_highest(0.0f , 0.2f , 0.4f) == true && "ordered_from_lowest_to_highest");
+	assert(ordered_from_lowest_to_highest(10.0f , 11.0f , 12.0f) && "ordered_from_lowest_to_highest");
+	assert(ordered_from_lowest_to_highest(12.0f , 14.0f , 20.0f) && "ordered_from_lowest_to_highest");
+	assert(ordered_from_lowest_to_highest(0.0f , 0.2f , 0.4f) && "ordered_from_lowest_to_highest");
 }
 
 int main(int argc, char const *argv[])

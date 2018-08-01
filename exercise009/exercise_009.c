@@ -2,5 +2,5 @@
 
 bool is_multiple_of_5(int number)
 {
-	return number % 5 == 0 ? true : false;
+	return number % 5 == 0;
 }
